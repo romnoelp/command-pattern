@@ -2,10 +2,10 @@ package commands;
 
 import devices.AutomaticDoor;
 
-public class RotateDoorHandle implements Command {
+public class RotateDoorHandleCommand implements Command {
     private final AutomaticDoor automaticDoor;
 
-    public RotateDoorHandle(AutomaticDoor automaticDoor) {
+    public RotateDoorHandleCommand(AutomaticDoor automaticDoor) {
         this.automaticDoor = automaticDoor;
     }
 

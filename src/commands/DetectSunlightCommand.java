@@ -2,10 +2,10 @@ package commands;
 
 import devices.DaylightSensor;
 
-public class DetectSunlight implements Command {
+public class DetectSunlightCommand implements Command {
     private final DaylightSensor sensor;
 
-    public DetectSunlight(DaylightSensor sensor) {
+    public DetectSunlightCommand(DaylightSensor sensor) {
         this.sensor = sensor;
     }
 

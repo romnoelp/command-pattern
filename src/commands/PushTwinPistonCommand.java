@@ -2,10 +2,10 @@ package commands;
 
 import devices.AutomaticDoor;
 
-public class PushTwinPiston implements Command {
+public class PushTwinPistonCommand implements Command {
     private final AutomaticDoor automaticDoor;
 
-    public PushTwinPiston(AutomaticDoor automaticDoor) {
+    public PushTwinPistonCommand(AutomaticDoor automaticDoor) {
         this.automaticDoor = automaticDoor;
     }
 

@@ -2,10 +2,10 @@ package commands;
 
 import devices.Curtain;
 
-public class OpenCurtain implements Command {
+public class OpenCurtainCommand implements Command {
     private final Curtain curtain;
 
-    public OpenCurtain(Curtain curtain) {
+    public OpenCurtainCommand(Curtain curtain) {
         this.curtain = curtain;
     }
 
